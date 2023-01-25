@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-box {
+    background-color: deepskyblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headsec h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+.mainsec {
+    margin: 15px 0;
+}
+
+.inner-box {
+    background-color: darkgoldenrod;
+    backdrop-filter: blur(3px);
+    width: 350px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    box-shadow: 6px 6px 10px #1d2671;
+    z-index: 1;
+}
+
+.mainsec p label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.mainsec p input {
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+#submit {
+    font-size: 1.5rem;
+    color: #370404;
+}
+
+#submit:hover {
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.footsec {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.footsec a {
+    margin-left: 5px;
+    color: white;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.c1 {
+    top: 70px;
+    left: 30px;
+}
+
+.c2 {
+    bottom: 100px;
+    right: 30px;
+}

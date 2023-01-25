@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 500px;
+    background-color: rgb(100, 100, 219);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+
+/* Watch styling start */
+
+.watch {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px 10px 10px rgb(141, 141, 138);
+}
+
+.watch:hover {
+    box-shadow: none;
+    /* font-style: italic; */
+}
+
+.watch img {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    /* box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.5);  */
+}
+
+.watch h2 {
+    font-size: 140%;
+    margin: 10px;
+}
+
+.watch p {
+    font-size: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.watch h3 {
+    color: Goldenrod;
+    margin-bottom: 10px;
+}
+
+.watch .dollar {
+    color: #00ffe8;
+}
+
+.watch h4 {
+    width: 300px;
+    height: 50px;
+    color: rgb(84, 84, 84);
+    background: linear-gradient(335.59deg, #000066 0%, #00ffe8 0%, #00ffe8 100%);
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Shoe style start */
+
+.shoe {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px 10px 10px rgb(141, 141, 138);
+}
+
+.shoe:hover {
+    box-shadow: none;
+    font-style: italic;
+}
+
+.shoe img {
+    height: 160px;
+    width: 150px;
+    margin: 15px;
+}
+
+.shoe h2 {
+    font-size: 140%;
+    margin: 10px;
+}
+
+.shoe p {
+    font-size: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.shoe .dollar {
+    color: #ff0004;
+}
+
+.shoe h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.shoe h4 {
+    width: 300px;
+    height: 50px;
+    color: rgb(183, 183, 183);
+    background: linear-gradient(0deg, #000066 0%, #ff0004 0%, #ff0004 0%);
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Shirt styling start */
+
+.shirt {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px 10px 10px rgb(141, 141, 138);
+}
+
+.shirt:hover {
+    box-shadow: none;
+    font-style: italic;
+}
+
+.shirt img {
+    height: 160px;
+    width: 150px;
+    margin: 15px;
+    /* box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.5);  */
+}
+
+.shirt h2 {
+    font-size: 140%;
+    margin: 10px;
+}
+
+.shirt p {
+    font-size: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.shirt .dollar {
+    color: #ded13f;
+}
+
+.shirt h3 {
+    color: Goldenrod;
+    margin-bottom: 10px;
+}
+
+.shirt h4 {
+    width: 300px;
+    height: 50px;
+    color: rgb(84, 84, 84);
+    background: linear-gradient(0deg, #000066 0%, #ff0004 0%, #ff0004 0%, #ffeb00 0%, #ffeb00 0%);
+    text-align: center;
+    padding: 15px;
+}

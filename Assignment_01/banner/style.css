@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:  */
+}
+
+.outerbox {
+    background-color: rgb(100, 22, 26);
+    width: 100vw;
+    height: 100vh;
+}
+
+.innerbox {
+    background-color: rgb(20, 237, 240);
+    width: 97vw;
+    height: 95vh;
+    margin: 0 auto;
+    display: grid;
+    position: relative;
+    top: 2.5%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.photodiv {
+    grid-area: 1/2/6/6;
+    z-index: 0;
+}
+
+.textdiv {
+    width: 100%;
+    height: 100%;
+    grid-area: 1/1/4/4;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+.textdiv h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.textdiv h3 {
+    font-size: large;
+    font-size: 1.4rem;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.textdiv button {
+    width: 150px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border-radius: 100px;
+    margin-right: 100px;
+    background-color: aquamarine;
+}
+
+.textdiv button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px gray;
+}

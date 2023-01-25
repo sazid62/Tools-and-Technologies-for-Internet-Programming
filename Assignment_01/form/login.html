@@ -1,0 +1,111 @@
+<doctype html>
+    <html>
+
+    <head>
+        <title>Log In</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .outerbox {
+                /* background: rgb(2,0,36); */
+                background-color: deeppink;
+                width: 100vw;
+                height: 100vh;
+            }
+            
+            .innerbox {
+                background-color: wheat;
+                width: 350px;
+                margin: 0 auto;
+                border-radius: 20px;
+                position: relative;
+                top: 50%;
+                padding: 30px 15px;
+                transform: translateY(-50%);
+            }
+            
+            .headsec img {
+                display: block;
+                margin: 0 auto;
+                width: 150px;
+                height: 150px;
+                border: 1px solid black;
+                border-radius: 100%;
+                box-shadow: 3px 3px 10px rgb(51, 50, 50);
+            }
+            
+            .headsec h1 {
+                text-align: center;
+                margin: 20px;
+                font-size: 2.9rem;
+                color: #690404;
+            }
+            
+            .mainsec p {
+                margin: 15px 0;
+                font-weight: 400;
+                font-size: 1.4rem;
+            }
+            
+            .mainsec input {
+                width: 100%;
+                display: block;
+                padding: 15px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                box-shadow: 0px 5px 10px rgb(51, 50, 50);
+            }
+            
+            #login {
+                font-size: 1.5rem;
+                background: linear-gradient(to right, #36d1dc, #5b86e5);
+            }
+            
+            #login:hover {
+                background: #4939bf;
+                cursor: pointer;
+                color: antiquewhite;
+            }
+            
+            .footsec p {
+                text-align: center;
+                font-size: 1.1rem;
+                font-weight: 400;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="outerbox">
+            <div class="innerbox">
+                <header class="headsec">
+                    <img src="hacker.png">
+                    <h1>Log In</h1>
+                </header>
+                <main class="mainsec">
+                    <form action="#">
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your Email" required>
+                        </p>
+                        <p>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter your Password" required>
+                        </p>
+                        <p>
+                            <input type="submit" id="login" value="Log In" required>
+                        </p>
+                    </form>
+                </main>
+                <footer class="footsec">
+                    <p>Don't have any Account?<a href="index.html">Create Account</a></p>
+                </footer>
+            </div>
+        </div>
+    </body>
+
+    </html>
